@@ -33,10 +33,14 @@
    Ren camel\
    Chypa donkey\
    Nelson donkey"\
-   1.3. Переименовать получившийся файл в "Human Friends"\
+   1.3. Переименовать получившийся файл в "Human Friends"  
    `mv Animal.txt HumanFriends.txt`
 
-2. Работа с директориями в Linux\
-   2.2. Создать новую директорию и переместить туда файл "Human Friends".\
+2. Работа с директориями в Linux  
+   2.2. Создать новую директорию и переместить туда файл "Human Friends".
    `mkdir HumanFriends`\
    `mv HumanFriends.txt ./HumanFriends/`
+3. Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную машину ” 
+   `sudo dpkg -i https://dev.mysql.com/get/mysql-apt-config_0.8.32-1_all.deb` 
+4. Управление deb-пакетами  
+   `sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb`
